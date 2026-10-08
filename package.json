@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-nebius-token-factory",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n chat model node for Nebius Token Factory: open models for AI agents and chains",
 	"license": "MIT",
 	"homepage": "https://tokenfactory.nebius.com/",
