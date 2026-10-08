@@ -30,7 +30,8 @@
 		"prepublishOnly": "n8n-node prerelease"
 	},
 	"files": [
-		"dist"
+		"dist",
+		"!dist/tsconfig.tsbuildinfo"
 	],
 	"n8n": {
 		"n8nNodesApiVersion": 1,
@@ -53,5 +54,9 @@
 	"peerDependencies": {
 		"n8n-workflow": "*",
 		"@n8n/ai-node-sdk": "*"
+	},
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
 	}
 }
