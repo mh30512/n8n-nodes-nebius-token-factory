@@ -37,7 +37,7 @@ The default model is `deepseek-ai/DeepSeek-V4-Flash-0731`, which supports tools,
 | Frequency Penalty | Reduces repetition of the same tokens. |
 | Presence Penalty | Encourages new topics. |
 | Maximum Number of Tokens | Output token limit. `-1` uses the model maximum. |
-| Response Format | `Text` or `JSON`. With JSON, include the word "json" in your prompt. |
+| Response Format | `Text` or `JSON`. With JSON, pick a model that lists `json_mode`. |
 | Timeout | Request timeout in milliseconds. |
 | Max Retries | Retries on failed requests. |
 

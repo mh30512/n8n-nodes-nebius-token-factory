@@ -62,7 +62,7 @@ export class LmChatNebius implements INodeType {
 		properties: [
 			{
 				displayName:
-					'If using JSON response format, you must include word "json" in the prompt in your chain or agent. Also, make sure to select a model that supports JSON mode.',
+					'JSON response format needs a model that lists json_mode in its supported features.',
 				name: 'notice',
 				type: 'notice',
 				default: '',
